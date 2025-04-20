@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_empleados"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#643025"
+    android:padding="16dp"
+    tools:context=".EmpleadoListActivity">
+
+    <!-- Lista de empleados -->
+    <ListView
+        android:id="@+id/listaEmpleados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnAgregarEmpleado"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+        android:paddingBottom="80dp"
+        tools:listitem="@layout/item_empleado" />
+
+    <Button
+        android:id="@+id/btnAgregarEmpleado"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:textSize="24sp"
+        android:elevation="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp" />
+</RelativeLayout>

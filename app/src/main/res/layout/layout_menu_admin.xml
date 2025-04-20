@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_menu_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#643025"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTituloMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Administrativo"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdministradores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Administradores"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnEmpleados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empleados"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAsistencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asistencias"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

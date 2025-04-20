@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Asistencia" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Paleta de colores personalizada -->
+        <item name="colorPrimary">#643025</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#000000</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+    </style>
+</resources>
